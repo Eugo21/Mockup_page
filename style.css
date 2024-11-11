@@ -154,7 +154,7 @@ h2 {
   margin-bottom: 8px;
 }
 
-.my-projects {
+.checkout-section {
   text-align: center;
   margin: 48px auto;
 }
@@ -171,4 +171,25 @@ h2 {
   height: 80px;
   top: 1354px;
   margin: 0 auto;
+}
+
+#PN {
+  background-color: #19acff;
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+#PNE {
+  width: 67px;
+  height: 72px;
+
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  
+  color: white;
 }
