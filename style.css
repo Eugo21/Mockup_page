@@ -142,5 +142,33 @@ h2 {
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
-  
+}
+
+.over-title2 {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #2858ff;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.my-projects {
+  text-align: center;
+  margin: 48px auto;
+}
+
+#checkout-description {
+  width: 686px;
+  height: 81px;
+  margin: 8px auto 48px auto;
+  max-width: 700px;
+}
+
+#Head2 {
+  width: 700px;
+  height: 80px;
+  top: 1354px;
+  margin: 0 auto;
 }
