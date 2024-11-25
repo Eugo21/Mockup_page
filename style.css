@@ -173,23 +173,89 @@ h2 {
   margin: 0 auto;
 }
 
-#PN {
-  background-color: #19acff;
-  width: 160px;
-  height: 160px;
-  border-radius: 10px;
-  text-align: center;
-  margin: 0;
+.my-projects {
+  max-width: 1060px;
+  margin: 48px auto;
 }
 
-#PNE {
-  width: 67px;
-  height: 72px;
+/* Container for image and text overlay */
+.project-name {
+  position: relative; /* Enables positioning for child elements */
+  display: inline-block; /* Adjusts to image dimensions */
+}
 
+.project-name2 {
+  position: relative; /* Enables positioning for child elements */
+  display: inline-block; /* Adjusts to image dimensions */
+}
+
+.project-name2 {
+  position: relative; /* Enables positioning for child elements */
+  display: inline-block; /* Adjusts to image dimensions */
+}
+
+/* Image styling */
+#rec {
+  width: 180px; /* Adjust to fit within the project-name container */
+  height: auto;
+}
+
+/* Centered text overlay */
+.pn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
   font-family: Poppins;
   font-size: 48px;
   font-weight: 700;
-  line-height: 72px;
-  
-  color: white;
+  z-index: 1; /* Ensures text appears in front of the image */
+}
+
+#project-name {
+  width: 150px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0px 5px 8px;
+}
+#word-1 {
+  width: 50%;
+}
+
+.vertical-text {
+  width: 881px;
+  margin-top: 0%;
+  margin-left: 15px;
+}
+.PN-1 {
+  display: flex;
+  max-width: 1060px;
+  margin: 15px;
+}
+
+.PN-2 {
+  display: flex;
+  max-width: 1060px;
+  margin: 15px;
+}
+
+.PN-3 {
+  display: flex;
+  max-width: 1060px;
+  margin: 15px;
+}
+.description-1 {
+  width: 880px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #55206d;
+  margin: 5px 8px;
+}
+
+#project-link1 {
+  width: 97px;
+  margin: 5px 8px 0px;
 }
