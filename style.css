@@ -175,7 +175,7 @@ h2 {
 
 .my-projects {
   max-width: 1060px;
-  margin: 48px auto;
+  margin: 48px auto 50px;
 }
 
 /* Container for image and text overlay */
@@ -258,4 +258,20 @@ h2 {
 #project-link1 {
   width: 97px;
   margin: 5px 8px 0px;
+}
+
+#footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 100px;
+}
+
+.footer-text {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 10px;
 }
